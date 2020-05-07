@@ -1,0 +1,32 @@
+nav(
+  class="navbar"
+  role="navigation"
+  aria-label="main navigation"
+)
+  .navbar-brand
+    a(
+      class="navbar-item"
+      href="/"
+      style="font-weight:bold"
+    ) N Clipboard
+    a(
+      role="button"
+      class="navbar-burger burger"
+      aria-label="menu"
+      aria-expanded="false"
+      data-target="navbarBasicExample"
+    )
+      span(aria-hidden="true")
+      span(aria-hidden="true")
+      span(aria-hidden="true")
+
+  .navbar-menu
+    .navbar-start
+
+    .navbar-end
+      .navbar-item
+        a.has-text-black(href="") Documentation 
+      .navbar-item
+        a.has-text-black(href="https://github.com") Github
+      .navbar-item
+        button.button.is-primary.is-small Download

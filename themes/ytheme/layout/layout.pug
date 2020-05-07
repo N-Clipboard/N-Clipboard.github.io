@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport" content="width=device-width, initial-scale=1.0")
+    title #{config.title}
+    link(rel="stylesheet" href="/css/bulma.css")
+    style(type="text/css").
+      @media (min-width: 1024px) {
+        .navbar {
+          padding-left: 14%;
+          padding-right: 14%;
+        }
+        .slogan {
+          text-align: right;
+        }
+      }
+
+      @media (max-width: 1023px) {
+        .slogan {
+          text-align: center;
+        }
+
+        .app-preview {
+          margin: 0 auto;
+        }
+
+        .download-container {
+          text-align: center;
+        }
+      }
+
+      .download-container {
+          margin-top: 2rem;
+      }
+
+      .m-space {
+        margin-left: 1rem;
+      }
+      .m-underline {
+        border-bottom: 2px solid black
+      }
+  body
+    include _partial/header.pug
+    != body
+    include _partial/footer.pug

@@ -1,0 +1,55 @@
+
+.columns.is-desktop
+  .column.slogan(
+    style="padding-left:2rem"
+  )
+    p.is-size-1.has-text-weight-bold(
+      style="margin-top:6rem;font-family:Arial"
+    ) Yet Another Pasteboard Manager
+    p.is-size-6 for saving the life
+
+    .download-container
+      button.button.is-primary Download | N Clipboard
+      p(style="font-size:14px;font-weight:bold") Requires macOS Catalina(10.15+) and above
+
+  .column
+    .app-preview(
+      style="background:url('img/app.png');width:100%;max-width:432px;height:714px;background-repeat:no-repeat;background-size:contain"
+    )
+
+.has-text-centered.is-size-2(style="margin-top:-2rem")
+  span.m-underline Features
+
+.columns.is-desktop(
+  style="margin:.6rem"
+)
+  .column
+    .card
+      .card-content
+        p.is-size-3 Open Source
+        p.is-size-6 N Clipboard is licensed under MIT, your data won't being transferred out of your Mac. It only use the Internet connection for checking the updates.
+
+  .column
+    .card
+      .card-content
+        p.is-size-3 Just work
+        p.is-size-6 All you need to do is keep N Clipboard running, and doing things as usual.
+
+  .column
+    .card
+      .card-content
+        p.is-size-3 Rich MIME Support
+        p.is-size-6 Code, text, images, files and many more others is on the way.
+
+.has-text-centered.is-size-2(style="margin-top: 1rem")
+  span.m-underline Why N Clipboard
+
+.columns(style="margin: .6rem")
+  .column.is-centered
+    p.is-size-6 
+      | This application is inspired by #[a(href="https://apps.apple.com/cn/app/copy-manage-clipboard-history/id1472854234?l=en&mt=12") Copy++]'s
+      | mini mode. But the main difference is, N Clipboard is just work. You choose the item, then hit enter to paste.
+      | Everything that is copied into your pasteboard will be recorded. Some implementation comes from #[a(href="https://clipy-app.com") Clipy],
+      | which is also pretty handy. But the problem is that it's interface is quiet not extensible. So finally, N Clipboard comes here for rescue.
+      | There are pretty much other apps that doing similar work, but we still reinvent the wheel because we want something feature rich like Clipy,
+      | but not overhead and keep things simple like Alfred. That's what [just work] means.
